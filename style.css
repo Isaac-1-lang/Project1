@@ -1,0 +1,40 @@
+/* descendant combinator */
+#heading1 p {
+    color: gold;
+}
+#heading1 p:hover {
+    color: blue;
+    font-size: larger;
+    font-weight: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Child selector  */
+section > aside {
+   color: red;
+}
+.container2 > h3 {
+     color: rgba(127, 146, 255, 0.989);
+}
+/* Adjacent selector*/
+div + h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+/* Descendants and children */
+article  > h1 {
+color: pink;
+}
+/* General sibling selector*/
+article ~ p {
+    color: peru;
+}
+.isaac {
+    font-size: 40px;
+}j
+h4,h5 {
+    font-size: 200px;
+    font-weight: bolder;
+    color: blue;
+}
+
+
